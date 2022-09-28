@@ -1,0 +1,65 @@
+Q1. Find out all the types of error that we have encountered in our lecture and why? Also include the examples.
+
+A) 
+   a) Pyhton is case sensitive language. We got the error when we didn't use the case of a variable (Ten) correctly.
+   b) print("Hi there") -- We got error for this since we used print as variable and assigned strin value to it and later were trying to call them. Thats why we should not us reserved word as variable.
+   c) We got an error while trying to calculate age. We got this error because we didn;t change the type of input age to int.
+   d) We got an error while adding int and float after accepting from input.
+   e) We got an error when trying to convert string, null, and float to int.
+
+Q2. Take input A and B and print their sum, mul, div, square of the nos.
+A = int(input("Enter A:"))
+B = int(input("Enter B:"))
+print(f"The sum of A & B is {A+B}")
+print(f"The multiplication of A & B is {A*B}")
+print(f"The division of A & B is {A/B}")
+print(f"The square of A is {A*A}")
+print(f"The square of B is {B*B}")
+
+Q3. How many reserve keywords are there in python and why we should not use them as a variable name. We should not use keyword as variable because then interpreter is not able to understand whether it's variable or keyword.
+Below are the reserved keyword in Python.
+and       del       from      not       while    
+as        elif      global    or        with     
+assert    else      if        pass      yield    
+break     except    import    print              
+class     exec      in        raise              
+continue  finally   is        return             
+def       for       lambda    try
+
+Q4. Create email ids with the user inputs. in the following format - 
+    lastname.firstname@gmail.com
+A - firstname = input("Enter first name: ")
+lastname =  input("Enter last name: ")
+print(f"{firstname}.{lastname}@gmail.com")
+
+5. Try to print the following lines -
+  - Hi I'm Sunny
+  - My address is 22\3 
+  - I earn 20$ daily.
+
+Ans - 
+print("Hi I'm Sunny ")
+print("My address is 22\\3 ")
+print("I earn 20$ daily.")
+
+Q6. Take user input (name, address, date of birthe etc) to fill a form for your college and create their email IDs.
+Ans - 
+name = input("Enter your name:")
+address = input("Enter your address:")
+DOB = input("Enter your DOB")
+Email = name+'@col.edu'
+
+Q7. Convert the following
+   - "22.4" into integer
+   - "22" into complex no.
+Ans - 
+A = "22.4"
+B = float(A)
+C = int(B)
+print("A: ", A)
+print("B: ", B)
+print("C: ", C)
+
+Complex part I missed.
+
+
